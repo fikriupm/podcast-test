@@ -1,11 +1,10 @@
 name: Generate Podcast Feeds
 on: [push]
-jobs: 
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
-        uses: fikriupm/podcast-generator@main 
-        
+        uses: fikriupm/podcast-generator@main
